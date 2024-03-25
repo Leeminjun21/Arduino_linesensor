@@ -25,7 +25,7 @@ void loop() {
 
 ### 7번 핀과 5V 연결
 
-'''언어
+```언어
 #define ledPin 13  // LED는 디지털 핀 13에 연결됨
 int linesensor_data[5] = {0,0,0,0,0};   //읽은 값을 저장할 변수
 int linesensor_pin[5] = {2,3,4,5,6};    //int형 배열
@@ -57,10 +57,11 @@ void loop() {
   }
   Serial.println(" ");
 }
-'''
+```
 
 ### 라인센서와 GND,5V 연결
-'''언어
+
+```언어
 # GND 코드
 
 #define ledPin 13 //LED는 디지털 핀 13에 열결됨
@@ -80,10 +81,11 @@ void loop() {
   Serial.println(val);
   digitalWrite(ledPin, val); //LED를 버튼 값으로 설정
 }
+```
 
 ### 라인 센서 실험
 
-'''언어
+```언어
 #define ledPin 13 //LED는 디지털 핀 13에 열결됨
 int linesensor_data[5] = {0,0,0,0,0};
 int linesensor_pin[5] = {2, 3, 4, 5, 6};
@@ -113,4 +115,4 @@ void loop() {
   }
   Serial.print("  ")
 }
-'''
+```
