@@ -2,7 +2,7 @@
 
 ### 7번 핀과 GND 연결
 
-'''언어
+```언어
 #define ledPin 13   // LED는 디지털 핀 13에 연결됨
 #define inPin 7     // pusbutton은 디지털 핀 7에 연결됨 
 int val = 0;        // 읽은 값을 저장할 변수
@@ -21,7 +21,7 @@ void loop() {
   Serial.println(val);
   digitalWrite(ledPin, val);    // LED 를 버튼의 값으로 설정
 }
-'''
+```
 
 ### 7번 핀과 5V 연결
 
